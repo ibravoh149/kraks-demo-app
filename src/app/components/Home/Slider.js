@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import img1 from '../../../public/images/img3.jpeg';
+import img2 from '../../../public/images/park.jpeg';
 
 const Slider = (props) => {
     // render(){
@@ -12,45 +14,48 @@ const Slider = (props) => {
                     <div className="carousel-item red white-text" href="#one!">
                         <div >
                             {/* <img className="carouselImage" src='' alt="" /> */}
-                            <img className="carouselImage" src='https://lorempixel.com/250/250/nature/2' alt="" />
+                            <img className="carouselImage" src={img1} alt="" />
                         </div>
+
                         <div className="carouselContent">
                             <h2 className="carouselHeader">
-                                lorem Ipsum......
+                            Where does it come from?
                               </h2>
                             <p className="carouselparagraph">
-                                Share your biggest fun
+                            Contrary to popular belief, Lorem Ipsu
+                            m is not simply random text. It has roots in a piece of clas
+                            
                               </p>
+                              <span style={{fontSize:'10px',color:'grey'}}>kraksTv 1 day ago</span>
+                                     <br/>
+                            <a href='' style={{ color: 'grey' }}><i className="fab fa-facebook-f"></i>{' '}{'5'}</a>
+                            <a href='' style={{ color: 'grey' }}><i className="fab fa-twitter"></i>{' '}{'2'}</a>
+                            <a href='' style={{ color: 'grey' }}><i className="fab fa-whatsapp"></i>{' '}{'0'}</a>
+
                         </div>
                     </div>
 
-                    <div className="carousel-item red white-text" href="#one!">
-                        <div className="carouselContainer">
-                            {/* <img className="carouselImage" src='' alt="" /> */}
-                            <img className="carouselImage" src='https://lorempixel.com/250/250/nature/1' alt="" />
-                        </div>
-                        <div className="carouselContent">
-                            <h2 className="carouselHeader">
-                                some alot of text
-                            </h2>
-                            <p className="carouselparagraph">
-                                something aint right here
-                            </p>
-                        </div>
-                    </div>
 
                     <div className="carousel-item red white-text" href="#one!">
                         <div className="carouselContainer">
                             {/* <img className="carouselImage" src="" alt="" /> */}
-                            <img className="carouselImage" src='https://lorempixel.com/250/250/nature/3' alt="" />
+                            <img className="carouselImage" src={img2} alt="" />
                         </div>
                         <div className="carouselContent">
                             <h2 className="carouselHeader">
-                                alot of text
+                            Where does it come from?
                             </h2>
                             <p className="carouselparagraph">
-                                something aint right here
+                            Contrary to popular belief, Lorem Ipsu
+                            m is not simply random text. It has roots in a piece of clas
+                            
                             </p>
+                            <span style={{fontSize:'10px',color:'grey'}}>kraksTv 1 day ago</span>
+                                     <br/>
+                            <a href='' style={{ color: 'grey' }}><i className="fab fa-facebook-f"></i>{' '}{'5'}</a>
+                            <a href='' style={{ color: 'grey' }}><i className="fab fa-twitter"></i>{' '}{'2'}</a>
+                            <a href='' style={{ color: 'grey' }}><i className="fab fa-whatsapp"></i>{' '}{'0'}</a>
+
                         </div>
                     </div>
                 </div>

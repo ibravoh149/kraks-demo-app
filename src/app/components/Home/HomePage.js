@@ -18,6 +18,7 @@ class HomePage extends Component {
         $('.sidenav').sidenav();
         $('.dropdown-trigger').dropdown();
         $('.collapsible').collapsible();
+        
     }
 
     render() {
