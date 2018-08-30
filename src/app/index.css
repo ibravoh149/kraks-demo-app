@@ -1,0 +1,227 @@
+header, .main, footer {
+    padding-left: 250px;
+  }
+.sidenav-fixed{
+  width: 250px;
+}
+.sidenav-fixed::-webkit-scrollbar{
+  background: transparent;
+  width: 0px;
+}
+.sidenav-fixed {
+  overflow: -moz-scrollbars-none;
+}
+.sidenav-fixed:hover{
+  overflow: auto;
+}
+::-webkit-scrollbar{
+  overflow: -moz-scrollbars-none;
+}
+  @media screen and (max-width: 696px) {
+     .bannerWrapper{
+      height: 250px;
+      width: 100%;
+    }
+  
+    .carouselImage {
+      width: 100% !important;
+      height: 350px !important;
+    }
+    .carouselContainer {
+      height: 250px;
+      font-size: 28px;
+    }
+  
+    .carousel-slider{
+      height: 360px !important;
+    }
+  
+    .carouselContent {
+      padding-top: 50px;
+      font-size: 28px;
+    };
+  
+    .carouselHeader {
+      font-size: 18px !important;
+    };
+}
+  @media only screen and (max-width : 992px) {
+    header, .main, footer {
+      padding-left: 0;
+    }
+
+    .carouselImage {
+        width: 100% !important;
+        height:350px;
+      }
+    
+      .bannerWrapper{
+        height: 250px;
+        width: 100%;
+      }
+    
+      /* .carouselImage {
+        width: 100% !important;
+        height: 400px !important;
+      }
+     */
+     
+      .carouselContainer {
+        height: 250px;
+        font-size: 28px;
+      }
+    
+      .carousel-slider{
+        height: 360px !important;
+      }
+    
+      .carouselContent {
+        padding-top: 50px;
+        font-size: 28px;
+      };
+    
+      .carouselHeader {
+        font-size: 18px !important;
+      };
+    
+  }
+
+  .bannerWrapper{
+    height: 250px;
+    width: 100%;
+    background-color: linear-gradient(to right, #007fff, #7df9ff);
+    /* background-color: linear-gradient(to right, #007fff, #7df9ff); */
+    /* background-color: #26a69a; */
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative
+  }
+  
+  .carouselHeader {
+    font-size: 48px;
+    font-weight: bold;
+    color: #fff;
+    /* box-shadow: 0px 0px 1px 0px; */
+    padding: '10px';
+    /* background-color: rgba(255,255,255, 0.1); */
+    width: 50%;
+    margin: 0 auto;
+  }
+  
+  .carouselImage {
+    width: 100% !important;
+    height: 350px;
+  }
+  
+  .carousel-slider{
+    height: 250px;
+  }
+  
+  .carouselContent {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    padding-top: 100px;
+    color: #fff;
+    text-align: center;
+    bottom: 0;
+    position: absolute;
+    background-color: rgba(0,0,0, 0.4);
+    z-index: 100;
+  };
+  
+  .carouselparagraph {
+    font-size: 28px;
+    font-weight: bold;
+    color: #fff;
+   }
+  
+   .carouselContainer {
+    height: 250px;
+    width: 100%;
+    /* background-color: #26a69a; */
+    background: linear-gradient(to right,magenta, #7df9ff);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+  }
+
+  body{
+      background-color: #EBEBEB;
+      
+  }
+
+  .caro{
+      background-color: #fff;
+      height: 250px;
+  }
+/* 
+  @media only screen and (max-width: 768px) {
+    .carouselImage {
+      width: 100% !important;
+      height:300px;
+    }
+  }   */
+  
+  .main{
+     top: 2px !important;
+  }
+
+  .card-image .card-title{
+    background: #000;
+    width: 100%;
+    opacity: .8;
+    height: 10px;
+  }
+
+  .card-action a{
+    color: grey;
+  }
+  .col-header{
+    height:inherit;
+    padding-left: 12px;
+    background: #fff;
+  }
+ .underline{
+   text-decoration:underline;
+   margin-top:10px;
+ }
+ .items .tabs a{
+   color: gray;
+ }
+
+ .items .tabs a:hover{
+ background:white;
+ color: #000;
+}
+
+ .items .tabs{
+  color: #fff;
+  background: white;
+}
+
+ .items .tabs a.active{
+  color: #fff;
+  font-weight: bolder;
+  /* background: #fff */
+  background:linear-gradient(to right,#feae4a,#fc195b, #fc195b,#feae4a)
+}
+
+.items .tabs a:focus{
+  color: #000;
+  font-weight: bolder;
+  background: #fff
+}
+
+.items .tabs .indicator{
+  background: #000;
+}
+
+.header{
+  background:linear-gradient(to right,#feae4a,#fc195b, #fc195b,#feae4a)
+}
+
+.section-image{
+  height: 100px;
+  width: 100px;
+}
