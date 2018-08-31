@@ -11,7 +11,7 @@ window.store= store;
 
 ReactDOM.render(
 <Provider store={store}>
-<Router>
+<Router basename={process.env.PUBLIC_URL}>
     <Routes />
 </Router>
 </Provider>
