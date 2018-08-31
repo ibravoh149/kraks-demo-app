@@ -1,11 +1,7 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
-import { connect } from 'react-redux';
-import { bindActionCreators } from 'redux';
 import Header from '../Header';
 import Sidenav from "../Sidenav";
 import Main from './Main';
-import Footer from '../Footer';
 
 
 class HomePage extends Component {

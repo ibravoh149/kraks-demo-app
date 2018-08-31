@@ -1,7 +1,4 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
-import { connect } from 'react-redux';
-import { bindActionCreators } from 'redux';
 import Slider from './Slider';
 
 
@@ -29,27 +26,7 @@ class Main extends Component {
     render() {
         return (
             <div className=''>
-                {/* banner */}
                 <Slider/>
-                {/* <div className='col s12 top-section'>
-                    <div className='row'>
-                        <div className='col s12 m6'> */}
-                            {/* <div className="col s12 m12"> */}
-                            {/* <div className="card z-depth-0">
-                                <div className="card-image CI">
-                                    <h6>tired of lauging</h6>
-                                    <div className='CI-layer'> */}
-                                        {/* <img src="https://lorempixel.com/250/250/nature/2" style={{ height: '250px' }} /> */}
-                                    {/* </div>
-                                </div>
-                            </div> */}
-
-                            {/* </div> */}
-                        {/* </div>
-                    </div>
-                </div> */}
-                {/* banner */}
-
                 <br />
                 <div className='row'>
                     <div className='col s12 m7 l7 items'>
