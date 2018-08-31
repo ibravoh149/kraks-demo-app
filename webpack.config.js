@@ -1,18 +1,27 @@
 const webpack = require('webpack');
 const path = require('path');
+const  HtmlWebpackPlugin = require('html-webpack-plugin');
 // const HtmlWebpackPlugin = require('html-webpack-plugin');
 
-const DIST_DIR = path.resolve(__dirname, 'html');
+// const DIST_DIR = path.resolve(__dirname, 'dist');
 const SRC_DIR = path.resolve(__dirname, 'src');
 
 const config ={
 
     devtool: 'source-map',
-    entry:SRC_DIR + "/app/index.js",
-    output:{
-        path:DIST_DIR + "/app",
-        filename:'bundle.js',
-        publicPath:"/app/"
+    // entry:SRC_DIR + "/app/index.js",
+    // output:{
+    //     path:DIST_DIR + "/app",
+    //     filename:'bundle.js',
+    //     publicPath:"/app/"
+    // },
+
+    entry: "./src/app/index.js",
+    
+      output: {
+        path: path.join(__dirname, '/dist'),
+        // publicPath: '/',
+        filename: 'bundle.js'
     },
 
     module:{
@@ -45,11 +54,11 @@ const config ={
     historyApiFallback: true,
       },
 
-    //   plugins: [
-    //     new HtmlWebpackPlugin({
-    //       template: 'src/app/index.html'
-    //     })
-    //   ]
+      plugins: [
+        new HtmlWebpackPlugin({
+          template: './src/index.html'
+        })
+      ]
 };
 
 module.exports = config;

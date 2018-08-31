@@ -11,7 +11,7 @@ const Slider = (props) => {
                     className="carousel carousel-slider center"
                     data-indicators="true"
                 >
-                    <div className="carousel-item red white-text" href="#one!">
+                    <a className="carousel-item red white-text" href="#one!">
                         <div >
                             {/* <img className="carouselImage" src='' alt="" /> */}
                             <img className="carouselImage" src={img1} alt="" />
@@ -19,13 +19,13 @@ const Slider = (props) => {
 
                         <div className="carouselContent">
                             <h2 className="carouselHeader">
-                            Where does it come from?
+                            You Know She's A Keeper When She Does These TEN Things
                               </h2>
-                            <p className="carouselparagraph">
+                            {/* <p className="carouselparagraph">
                             Contrary to popular belief, Lorem Ipsu
                             m is not simply random text. It has roots in a piece of clas
                             
-                              </p>
+                              </p> */}
                               <span style={{fontSize:'10px',color:'grey'}}>kraksTv 1 day ago</span>
                                      <br/>
                             <a href='' style={{ color: 'grey' }}><i className="fab fa-facebook-f"></i>{' '}{'5'}</a>
@@ -33,23 +33,23 @@ const Slider = (props) => {
                             <a href='' style={{ color: 'grey' }}><i className="fab fa-whatsapp"></i>{' '}{'0'}</a>
 
                         </div>
-                    </div>
+                    </a>
 
 
-                    <div className="carousel-item red white-text" href="#one!">
+                    <a className="carousel-item red white-text" href="#one!">
                         <div className="carouselContainer">
                             {/* <img className="carouselImage" src="" alt="" /> */}
                             <img className="carouselImage" src={img2} alt="" />
                         </div>
                         <div className="carouselContent">
                             <h2 className="carouselHeader">
-                            Where does it come from?
+                                 You Know She's A Keeper When She Does These TEN Things
                             </h2>
-                            <p className="carouselparagraph">
+                            {/* <p className="carouselparagraph">
                             Contrary to popular belief, Lorem Ipsu
                             m is not simply random text. It has roots in a piece of clas
                             
-                            </p>
+                            </p> */}
                             <span style={{fontSize:'10px',color:'grey'}}>kraksTv 1 day ago</span>
                                      <br/>
                             <a href='' style={{ color: 'grey' }}><i className="fab fa-facebook-f"></i>{' '}{'5'}</a>
@@ -57,7 +57,7 @@ const Slider = (props) => {
                             <a href='' style={{ color: 'grey' }}><i className="fab fa-whatsapp"></i>{' '}{'0'}</a>
 
                         </div>
-                    </div>
+                    </a>
                 </div>
             </div>
         </div>
