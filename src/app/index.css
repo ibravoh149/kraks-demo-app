@@ -319,7 +319,11 @@ header, .main, footer {
   };
 
   .carouselHeader {
-    font-size: 18px !important;
+    font-size: 15px !important;
   };
+
+  .carouselContent a{
+    font-size: 15px
+  }
 
 }
