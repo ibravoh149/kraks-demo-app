@@ -1,7 +1,6 @@
 const webpack = require('webpack');
 const path = require('path');
 const  HtmlWebpackPlugin = require('html-webpack-plugin');
-// const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 // const DIST_DIR = path.resolve(__dirname, 'dist');
 const SRC_DIR = path.resolve(__dirname, 'src');
@@ -9,13 +8,6 @@ const SRC_DIR = path.resolve(__dirname, 'src');
 const config ={
 
     devtool: 'source-map',
-    // entry:SRC_DIR + "/app/index.js",
-    // output:{
-    //     path:DIST_DIR + "/app",
-    //     filename:'bundle.js',
-    //     publicPath:"/app/"
-    // },
-
     entry: "./src/app/index.js",
     
       output: {
